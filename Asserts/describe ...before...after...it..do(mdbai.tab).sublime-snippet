@@ -1,7 +1,6 @@
 <snippet>
    <content><![CDATA[
 describe ${1:'Description' or Object} do
-
   before do
     ${2:'setup_code'}
   end
@@ -11,9 +10,8 @@ describe ${1:'Description' or Object} do
   end
 
   it '${4:must do something}' do
-     ${5: your_code}
+    ${5:your_code}
   end
-  
 end
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

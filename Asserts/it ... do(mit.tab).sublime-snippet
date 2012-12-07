@@ -1,8 +1,8 @@
 <snippet>
    <content><![CDATA[
-  it '${1:must do something}' do
-     ${2: your_code}
-  end
+it '${1:must do something}' do
+  ${2:your_code}
+end
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>mit</tabTrigger>
